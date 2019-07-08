@@ -2,7 +2,7 @@
 
 | CI | Coverage | Release |
 | --- | --- | --- |
-| [![Build Status][Badge-Travis]][Link-Travis] | [![Coverage Status][Badge-Codecov]][Link-Codecov] | [![Release Artifacts][Badge-SonatypeReleases]][Link-SonatypeReleases] |
+| [![Build Status][Badge-Travis]][Link-Travis] | [![Release Artifacts][Badge-SonatypeReleases]][Link-SonatypeReleases] |
 
 Integration between Slick and ZIO
 
