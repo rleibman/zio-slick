@@ -11,7 +11,7 @@ lazy val root = (project in file("."))
     name := "zio-slick",
     libraryDependencies ++= Seq(
       "com.typesafe.slick" %% "slick" % "3.3.2" withSources(),
-      "dev.zio" %% "zio" % "1.0.0-RC8-12" withSources(),
+      "dev.zio" %% "zio" % "1.0.0-RC9-4" withSources(),
       "com.h2database"       % "h2"                % "1.4.199" % Test,
       scalaTest % Test
     ),
