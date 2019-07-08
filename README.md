@@ -55,10 +55,8 @@ Add zio-slick dependency to your `build.sbt`:
 ```
 
 
-[Link-Codecov]: https://codecov.io/gh/rleibman/zio-slick?branch=master "Codecov"
 [Link-Travis]: https://travis-ci.com/rleibman/zio-slick "circleci"
-[Link-SonatypeReleases]: https://oss.sonatype.org/content/repositories/releases/com/leibman/zio-slick-core_2.12/ "Sonatype Releases"
+[Link-SonatypeReleases]: https://oss.sonatype.org/content/repositories/releases/net/leibman/zio-slick-core_2.12/ "Sonatype Releases"
 
-[Badge-Codecov]: https://codecov.io/gh/rleibman/zio-slick/branch/master/graph/badge.svg "Codecov" 
 [Badge-Travis]: https://travis-ci.com/rleibman/zio-slick.svg?branch=master "Codecov" 
-[Badge-SonatypeReleases]: https://img.shields.io/nexus/r/https/oss.sonatype.org/com.leibman/zio-slick-core_2.12.svg "Sonatype Releases"
+[Badge-SonatypeReleases]: https://img.shields.io/nexus/r/https/oss.sonatype.org/net.leibman/zio-slick-core_2.12.svg "Sonatype Releases"
