@@ -17,7 +17,7 @@ branches:
     -  /^v.*/
 
 script:
-  - sbt clean test 
+  - sbt clean test
 
 before_install:
 
