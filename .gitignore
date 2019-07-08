@@ -33,3 +33,5 @@ snapshots
 
 # Log files
 *.log
+
+.sbtopts
