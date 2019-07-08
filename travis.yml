@@ -1,0 +1,43 @@
+sudo: false
+
+language: scala
+
+matrix:
+  include:
+    # Scala 2.11, JVM
+    - jdk: oraclejdk8
+      scala: 2.11.12
+    # Scala 2.12, JVM
+    - jdk: oraclejdk8
+      scala: 2.12.8
+
+branches:
+  only:
+    - master
+    -  /^v.*/
+
+script:
+  - sbt clean test 
+
+before_install:
+
+cache:
+  directories:
+    - $HOME/.sbt/1.0/dependency
+    - $HOME/.sbt/boot/scala*
+    - $HOME/.sbt/launchers
+    - $HOME/.rvm
+    - website/node_modules
+
+before_cache:
+  - find $HOME/.sbt -name "*.lock" -type f -delete
+  - find $HOME/.ivy2/cache -name "ivydata-*.properties" -type f -delete
+  - rm -rf $HOME/.ivy2/local
+
+env:
+  global:
+    - secure:
+    - secure:
+    - secure:
+
+after_success:
